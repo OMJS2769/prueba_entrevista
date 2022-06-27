@@ -4,15 +4,15 @@ This project was created with laravel 8, it requires composer.
 
 - Run `$ composer install
 
-##Migration
+## Migration
 
 -Run `$ php artisan migrate
 
-##Seeder
+## Seeder
 
 Run php artisan db:seed --class=DatabaseSeeder to create test records
 
-##Login (GET)
+## Login (GET)
 
 Call http://localhost/prueba_entrevista/public/api/login with the next parmeters
 
@@ -31,7 +31,7 @@ Response
 | api_token      |    8fb0a4049c19621bfd0eab9f639628398a2ff12d |
 | last_session      |    2022-06-27T19:24:29.234393Z |
 
-##Get record (GET)
+## Get record (GET)
 
 Call http://localhost/prueba_entrevista/public/api/index_customer with the next parmeters
 
@@ -56,7 +56,7 @@ Response
 | commune  | JSON |
 
 
-##Store record (POST)
+## Store record (POST)
 
 Call http://localhost/prueba_entrevista/public/api/store_customer with the next parmeters
 
@@ -76,7 +76,7 @@ Response
 | status  | success |
 | message  | Customer stored |
 
-##Destroy record (DELETE)
+## Destroy record (DELETE)
 
 Call http://localhost/prueba_entrevista/public/api/destroy_customer with the next parmeters
 
