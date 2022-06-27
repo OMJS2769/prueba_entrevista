@@ -2,15 +2,15 @@
 
 This project was created with laravel 8, it requires composer.
 
-- Run `$composer install
+- Run `$ composer install`
 
 ## Migration
 
--Run `$php artisan migrate
+-Run `$ php artisan migrate`
 
 ## Seeder
 
-Run php artisan db:seed --class=DatabaseSeeder to create test records
+Run `$ php artisan db:seed --class=DatabaseSeeder` to create test records
 
 ## Login (GET)
 
