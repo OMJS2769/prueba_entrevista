@@ -14,7 +14,7 @@ Run `$ php artisan db:seed --class=DatabaseSeeder` to create test records
 
 ## Login (GET)
 
-Call http://localhost/prueba_entrevista/public/api/login with the next parmeters
+Call http://localhost/prueba_entrevista/api/login with the next parmeters
 
 - email
 - password
@@ -33,7 +33,7 @@ Response
 
 ## Get record (GET)
 
-Call http://localhost/prueba_entrevista/public/api/index_customer with the next parmeters
+Call http://localhost/prueba_entrevista/api/index_customer with the next parmeters
 
 - api_token
 
@@ -58,7 +58,7 @@ Response
 
 ## Store record (POST)
 
-Call http://localhost/prueba_entrevista/public/api/store_customer with the next parmeters
+Call http://localhost/prueba_entrevista/api/store_customer with the next parmeters
 
 - api_token
 - dni
@@ -78,7 +78,7 @@ Response
 
 ## Destroy record (DELETE)
 
-Call http://localhost/prueba_entrevista/public/api/destroy_customer with the next parmeters
+Call http://localhost/prueba_entrevista/api/destroy_customer with the next parmeters
 
 - api_token
 - customer_id
